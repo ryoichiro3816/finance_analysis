@@ -1,0 +1,37 @@
+# Personal finance data
+data/csv/*
+!data/csv/.gitkeep
+data/db/*
+!data/db/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# Local logs and environment
+*.log
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
